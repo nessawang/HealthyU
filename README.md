@@ -11,7 +11,7 @@ The second part of HealthyU offers personalised recommendations to help users ma
 
 ## Tools Used
 	•	Visual Studio Code (VSCode) v1.56.0
-	•	Python 3.9.15:
+	•	Python 3.9.15
 	•	Streamlit 0.82.0
 	•	ChatGPT (GPT-3.5)
 

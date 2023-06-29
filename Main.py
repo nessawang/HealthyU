@@ -243,12 +243,8 @@ gpt_input = pd.DataFrame(input_data)
 
 # my openai api key
 import secrets
-import openai_secret_manager
-secrets = openai_secret_manager.Secrets()
-assert "openai" in secrets.get_services()
-openai_secrets = secrets.get_secret("openai")
 
-openai.api_key = openai_secrets["openai_key"]
+openai.api_key = st.secrets["openai_key"]
 
 #openai.api_key = secrets.get("openai_key")
 

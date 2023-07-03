@@ -4,7 +4,6 @@ import pickle
 import numpy as np
 import matplotlib.pyplot as plt
 import openai
-
 import time
 
 st.write("# Welcome to HealthyU APP")
@@ -246,7 +245,7 @@ import secrets
 
 openai.api_key = st.secrets["openai_key"]
 
-#openai.api_key = secrets.get("openai_key")
+
 
 # ask ChatGPT for the suggestion    
 def ask_GPT(gpt_input):  
